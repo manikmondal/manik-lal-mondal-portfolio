@@ -8,20 +8,16 @@ export default class Porfolio extends Component {
           <div className="twelve columns collapsed">
             <h1>Check Out Some of My Works.</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              <ul>
-
-
+              <ul className="">
                 {
-                  resumeData.portfolio && resumeData.portfolio.map(item => {
+                  resumeData.portfolio && resumeData.portfolio.map((item) => {
                     return (
                       <div className="columns portfolio-item">
-
-                        <div className="item-wrap">
-                          {/* <a href="#modal-01"> */}
+                        <li>
+                          {/* <img src={`${item.imgurl}`} alt="" className="item-img" /> */}
                           <a href={item.url}>
                             <img src={`${item.imgurl}`} alt="" className="item-img" />
-
-
+                            {/* <p className={item.className} /> */}
                             <div className="overlay">
                               <div className="portfolio-item-meta">
                                 <h5>{item.name}</h5>
@@ -30,12 +26,12 @@ export default class Porfolio extends Component {
                               </div>
                             </div>
                           </a>
-                        </div>
+
+                        </li>
                       </div>
                     )
                   })
                 }
-
               </ul>
             </div>
           </div>

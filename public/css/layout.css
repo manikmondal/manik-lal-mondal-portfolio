@@ -42,6 +42,23 @@ header {
    overflow: hidden;
 }
 
+.login-container {
+   position: relative;
+   width: 320px;
+   margin: 4rem auto;
+   text-align: center;
+   height: 620px;
+   border-radius: 10px;
+   padding: 50px;
+   box-sizing: border-box;
+   /* background: #ecf0f3; */
+   box-shadow: 5px 5px 5px #cbced1, -5px -5px 5px white;
+}
+
+.login-container button {
+   border-radius: 20px;
+}
+
 /* vertically center banner section */
 header:before {
    content: '';

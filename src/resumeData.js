@@ -21,6 +21,11 @@ let resumeData = {
       "name": "facebook",
       "url": "https://www.facebook.com/manik.mondal.568",
       "className": "fa fa-facebook-square"
+    },
+    {
+      "name": "resume",
+      "url": "https://drive.google.com/file/d/11tlAKohxK5KYZfdQ-SaZa88dkRjFNfdO/view",
+      "className": "fa fa-file"
     }
   ],
   "resumepdf": [
@@ -36,33 +41,33 @@ let resumeData = {
   "education": [
     {
       "UniversityName": "Bachelor of Computer Science & Engineering",
-      "specialization": "Some specialization",
+      "specialization": "Hardware,software and network",
       "MonthOfPassing": "Dec",
       "YearOfPassing": "2011",
       "Achievements": "Some Achievements"
     },
     {
       "UniversityName": "programming hero",
-      "specialization": "Some specialization",
+      "specialization": "Html,CSS,JavaScript,React",
       "MonthOfPassing": "may",
       "YearOfPassing": "2022",
-      "Achievements": "Some Achievements"
+      "Achievements": "Personal project"
     }
   ],
   "work": [
     {
-      "CompanyName": "Personal project",
-      "specialization": "Some specialization",
-      "MonthOfLeaving": "may",
-      "YearOfLeaving": "2022",
+      "CompanyName": "Onix Computer System",
+      "specialization": "All Kind of Computer travel suiting",
+      "MonthOfLeaving": "dec",
+      "YearOfLeaving": "2014",
       "Achievements": "Some Achievements"
     },
     {
-      "CompanyName": "Some Company",
-      "specialization": "Some specialization",
+      "CompanyName": "Personal project",
+      "specialization": "Html,CSS,JavaScript,React",
       "MonthOfLeaving": "may",
       "YearOfLeaving": "2022",
-      "Achievements": "Some Achievements"
+      "Achievements": "five months hard work"
     }
   ],
   "skillsDescription": "My skills here",

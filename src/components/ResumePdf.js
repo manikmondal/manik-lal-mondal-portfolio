@@ -9,7 +9,6 @@ const ResumePdf = (resumeData) => {
                         return (
                             <li>
                                 <a href={item.url}>
-                                    <i className={item.className} />
                                 </a>
                             </li>
                         )

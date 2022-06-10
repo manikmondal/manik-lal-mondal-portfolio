@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 export default class Footer extends Component {
+
   render() {
     let resumeData = this.props.resumeData;
+
+
+    const today = new Date();
+    const year = today.getFullYear();
+    const date = today.getDate();
+    const time = today.getHours();
+
     return (
       <footer>
         <div className="row">
@@ -19,6 +27,9 @@ export default class Footer extends Component {
                 })
               }
             </ul>
+            <h5 className="widget"> Manik Lal Mondal, &copy;: {year} date:-{date}:Time:-{time} All Rights
+              Reserved. </h5>
+            <p>Copyright © 2022 - All right reserved </p>
 
           </div>
           <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
