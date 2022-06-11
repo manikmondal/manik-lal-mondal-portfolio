@@ -19,6 +19,7 @@ export default class Header extends Component {
               <li><a className="smoothscroll" href="#resume">Resume</a></li>
               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+              <li><a className="smoothscroll" href="#blog">Blog</a></li>
               <li><a className="smoothscroll" href="#contact">Contact</a></li>
 
             </ul>
@@ -36,6 +37,7 @@ export default class Header extends Component {
                     return (
                       <li key={item.name}>
                         <a href={item.url}><i className={item.className}></i></a>
+                        <p>{item.name}</p>
                       </li>
                     )
                   }

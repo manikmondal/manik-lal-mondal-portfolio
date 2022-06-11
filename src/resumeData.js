@@ -36,7 +36,11 @@ let resumeData = {
     }
   ],
   "aboutme": "I am currently a student at The programming hero from here. I am a self Full Stack Web Developer I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-  "address": "Bangladesh",
+  "experience": "06+ Months",
+  "age": "38 years",
+  "address": "jhalokati,Barisal,Bangladesh",
+  "Phone": "+8801817505331",
+
   // "website": "https://rbhatia46.github.io",
   "education": [
     {
@@ -44,14 +48,14 @@ let resumeData = {
       "specialization": "Hardware,software and network",
       "MonthOfPassing": "Dec",
       "YearOfPassing": "2011",
-      "Achievements": "Some Achievements"
+      "Achievements": "The Royal University of Dhaka."
     },
     {
       "UniversityName": "programming hero",
       "specialization": "Html,CSS,JavaScript,React",
       "MonthOfPassing": "may",
       "YearOfPassing": "2022",
-      "Achievements": "Personal project"
+      "Achievements": "programming hero project"
     }
   ],
   "work": [
@@ -60,7 +64,7 @@ let resumeData = {
       "specialization": "All Kind of Computer travel suiting",
       "MonthOfLeaving": "dec",
       "YearOfLeaving": "2014",
-      "Achievements": "Some Achievements"
+      "Achievements": "Hardware,software and network"
     },
     {
       "CompanyName": "Personal project",
@@ -113,12 +117,12 @@ let resumeData = {
   ],
   "testimonials": [
     {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
+      "description": "Onix Computer Systems testimonial",
+      "name": " I wanted to take a moment to thank you for the services your team has provided. Your team has been a pleasure to work with, professional and timely. The only delay in work that we have experienced has been due to our own lack of organization managing our projects, not yours. Job well done and I hope we can continue to grow together."
     },
     {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
+      "description": "Programming hero testimonial",
+      "name": "I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided to work with you. It’s really great how easy your websites are to update and manage. I never have any problem at all.My new site is so much faster and easier to work with than my old site. It used to take me an hour or more to update a page and I would still sometimes screw things up.Now it’s almost like having a designer right here with me. I just choose the page, make the change and click save. It’s so simple.Thanks, guys!"
     }
   ]
 }

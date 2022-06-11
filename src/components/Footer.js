@@ -9,6 +9,8 @@ export default class Footer extends Component {
     const year = today.getFullYear();
     const date = today.getDate();
     const time = today.getHours();
+    const times = today.getMinutes();
+    const month = today.getDay();
 
     return (
       <footer>
@@ -27,9 +29,9 @@ export default class Footer extends Component {
                 })
               }
             </ul>
-            <h5 className="widget"> Manik Lal Mondal, &copy;: {year} date:-{date}:Time:-{time} All Rights
+            <h5 className="footer-text"> Manik Lal Mondal, &copy;: {year} Date:-{date},Month:-{month}, Time:-{time}:{times} All Rights
               Reserved. </h5>
-            <p>Copyright © 2022 - All right reserved </p>
+            <p className="footer-text">Copyright © 2022 - All right reserved </p>
 
           </div>
           <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>

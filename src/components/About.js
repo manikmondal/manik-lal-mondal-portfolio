@@ -32,8 +32,14 @@ export default class About extends Component {
                            <br></br>
                            <span>{resumeData.email}</span>
                            <br />
+                           <span>{resumeData.age}</span>
+                           <br />
                            <span>
                               {resumeData.address}
+                           </span>
+                           <br />
+                           <span>
+                              {resumeData.Phone}
                            </span>
                            <br></br>
                            <span>{resumeData.website}</span>
@@ -42,7 +48,7 @@ export default class About extends Component {
                   </div>
                </div>
             </div>
-         </section>
+         </section >
       );
    }
 }

@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
 import Contact from './components/Contact';
+import Blog from './components/Blog';
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
         <Testimonials resumeData={resumeData} />
         <ContactUs resumeData={resumeData} />
         <Contact></Contact>
+        <Blog resumeData={resumeData}></Blog>
 
         <Footer resumeData={resumeData} />
 

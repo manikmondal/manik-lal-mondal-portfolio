@@ -112,8 +112,13 @@ header .banner-text hr {
 header .social {
    margin: 24px 0;
    padding: 0;
-   font-size: 30px;
+   font-size: 60px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+
+header .social p {
+   font-size: 20px;
+   color: rgb(0, 255, 174);
 }
 
 header .social li {
@@ -589,12 +594,12 @@ ul#nav li.current a {
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 70px;
+   padding-bottom: 40px;
 }
 
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -678,13 +683,15 @@ ul#nav li.current a {
 }
 
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
-   color: #fff;
+   font: 21px 'opensans-bold', sans-serif;
+   color: rgb(247, 204, 111);
+   /* color: #fff; */
 }
 
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
-   color: #c6c7c7;
+   font: 18px 'opensans-light', sans-serif;
+   color: #3b0cf4;
+   /* color: #c6c7c7; */
    margin-bottom: 0;
 }
 
@@ -1059,6 +1066,20 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
+#blog {
+   background: #515476;
+   padding-top: 70px;
+   padding-bottom: 90px;
+   color: #fcfafa;
+}
+
+#blog h1 {
+   font: 24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
 
 #contact {
    background: #191919;
@@ -1236,17 +1257,21 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
+   padding-top: 18px;
+   margin-bottom: 5px;
    color: #303030;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
+.footer-text {
+   color: rgb(177, 174, 174);
+}
+
 footer a,
 footer a:visited {
-   color: #525252;
+   color: #8d8d8d;
 }
 
 footer a:hover,
@@ -1286,7 +1311,7 @@ footer .copyright li:first-child:before {
 footer .social-links {
    margin: 18px 0 30px 0;
    padding: 0;
-   font-size: 30px;
+   font-size: 40px;
 }
 
 footer .social-links li {
